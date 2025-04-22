@@ -1,0 +1,27 @@
+
+#click {
+  background-color: rgb(13, 240, 221);
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 11px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#click:hover {
+  animation: bounce 0.5s ease-in-out;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
